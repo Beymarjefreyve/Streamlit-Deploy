@@ -9,7 +9,7 @@ language = st.selectbox("Favourite language", ["Python", "Java", "C++"])
 
 
 if st.button("Say hello"):
-    st.succes(f"Hello {name}! You are {age} and you like {language}.")
+    st.success(f"Hello {name}! You are {age} and you like {language}.")
 
 st.divider()
 file = st.file_uploader("Upload a CSV file", type="csv")
